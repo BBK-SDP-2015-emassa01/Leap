@@ -127,20 +127,20 @@ public class controlMouseLEAP{
 			
 			
 			//Jab clicking method
-			/*if(zz>75)//if finger moves forward//UNCOMENT THIS SECTION FOR JAB CLICKING, MAKE SURE TO COMMENT TWO FINGURE CLICKING
+			if(zz>75)//if finger moves forward//UNCOMENT THIS SECTION FOR JAB CLICKING, MAKE SURE TO COMMENT TWO FINGURE CLICKING
 				{
 					robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
 					Thread.sleep(200);
 					robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
-				}*/
+				}
 			
-			if(frame.fingers().count()==2)//COMMENT THIS STUFF OUT IF YOU HAVE UNCOMMENTED JAB CLICKING
-			{
-				robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
-				Thread.sleep(200);
-				robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
-				System.out.println("CLICK");
-			}
+//			if(frame.fingers().count()==2)//COMMENT THIS STUFF OUT IF YOU HAVE UNCOMMENTED JAB CLICKING
+//			{
+//				robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+//				Thread.sleep(200);
+//				robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+//				System.out.println("CLICK");
+//			}
 			
 			if(frame.fingers().count()==8)//Exiting App
 			{
