@@ -1,5 +1,9 @@
+/*
+ * REFERENCE: NOAH-HUPPERT
+ * https://github.com/Noah-Huppert/Leap-Motion/blob/master/MouseFinal
+ */
 
-import java.awt.AWTException;
+	import java.awt.AWTException;
 import java.awt.Robot;
 import java.awt.event.InputEvent;
 import java.io.Console;
